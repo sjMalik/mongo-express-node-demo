@@ -1,0 +1,9 @@
+POST http://localhost:7000/authors
+Content-Type: application/json
+
+{
+    "name": "S Roy"
+}
+
+###
+GET http://localhost:7000/authors
